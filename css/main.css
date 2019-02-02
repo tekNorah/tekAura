@@ -140,9 +140,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: &#39;
-  &#39;
-  ;
+  content: "";
   content: none;
 }
 
@@ -379,11 +377,7 @@ textarea {
 
 pre,
 code {
-  font-family: &quot;
-  Courier New&quot;
-  ,
-  Courier,
-  Monospace;
+  font-family: "Courier New", Courier, Monospace;
   color: inherit;
 }
 
@@ -395,8 +389,8 @@ pre {
 
 .post-body blockquote {
   background: url(//lh6.googleusercontent.com/-6UyQr7E0nTU/UVRWwhvPScI/AAAAAAAAFUU/15cIvW74xwg/s50/quote.png) no-repeat scroll left 18px transparent;
-  font-family: Monaco, Georgia, &quot;
-  font-size: 100%;
+  font-family: Monaco, Georgia;
+font-size: 100%;
   font-style: italic;
   line-height: 22px;
   margin: 20px 0 30px 20px;
@@ -408,16 +402,9 @@ pre {
 /*      TABLE      */
 /*******************/
 
-.post-body table[border=&quot;
-1&quot;
-] th,
-.post-body table[border=&quot;
-1&quot;
-] td,
-.post-body table[border=&quot;
-1&quot;
-
-] caption {
+.post-body table[border="1"] th,
+.post-body table[border="1"] td,
+.post-body table[border="1"] caption {
   border: 1px solid;
   padding: .2em .5em;
   text-align: left;
@@ -432,10 +419,7 @@ pre {
   font-weight: bold;
 }
 
-.post-body table[border=&quot;
-1&quot;
-
-] caption {
+.post-body table[border="1"] caption {
   border: none;
   font-style: italic;
 }
@@ -568,7 +552,7 @@ body {
   color: #fff;
   font-size: 15px;
   line-height: 1.7em;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   transition: .5s;
   -webkit-transition: .5s;
@@ -713,7 +697,7 @@ ul.socialbar li {
   font-size: 15px;
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .menubar2 li ul {
@@ -750,7 +734,7 @@ ul.socialbar li {
 .menubar2 li li a {
   display: block;
   color: #e0dfdf;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Droid Sans", sans-serif;
   text-shadow: 0 1px 1px #4B4B4B;
   position: relative;
   z-index: 100;
@@ -765,7 +749,7 @@ ul.socialbar li {
 
 .menubar2 li li li a {
   color: #e0dfdf;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Droid Sans", sans-serif;
   text-shadow: 0 1px 1px #4B4B4B;
   z-index: 20;
 }
@@ -858,7 +842,7 @@ max-width: 780px;*/
 
 .post-body {
   color: #777777;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 1.86em;
   font-weight: 400;
@@ -869,7 +853,7 @@ h1.post-title {
   transition: .5s;
   -webkit-transition: .5s;
   -moz-transition: .5s;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-display: swap;
   font-size: 25px;
   line-height: 1.52em;
@@ -978,7 +962,6 @@ span.rollover:hover {
 .pagenavi a {
   margin-right: 3px;
   display: inline-block;
-  color: $(readmore.color);
   background-color: #F1F1F1;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1326,7 +1309,7 @@ body#layout #footer .column .widget {
   background-position: 0 50%;
   background-repeat: repeat-x;
   border-bottom: 2px solid #FFFFFF;
-  font: 600 20px'Open Sans', serif, sans-serif;
+  font: 600 20px"Open Sans", serif, sans-serif;
   margin: 0 0 3px;
   overflow: hidden;
   padding: 5px 0;
@@ -1497,7 +1480,7 @@ body#layout #footer .column .widget {
 
 .PopularPosts .item-snippet {
   color: #777777;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.5em;
 }
@@ -1561,7 +1544,7 @@ h2.fword {
   color: #585858;
   margin-bottom: 5px;
   margin: 7px 0 33px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .fword {
@@ -1584,7 +1567,7 @@ h2.fword {
   color: #585858;
   margin-bottom: 5px;
   margin: 7px 0 33px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 #related-posts .related_img {
@@ -1883,7 +1866,7 @@ h2.fword {
 
 input[type=submit] {
   padding: 4px 17px;
-  color: #ffffcolor: #585858;
+  color: #585858;
   text-transform: uppercase;
   border: none;
   font-size: 20px;
@@ -2087,17 +2070,17 @@ div#top-comment {
 }
 
 .top-comment.blogico:before {
-  content: &quot;
-  \f0d5&quot;
-  ;
+  content: "
+\f0d5"
+;
   font-family: fontawesome;
   margin-right: 15px;
 }
 
 .top-comment.faceico:before {
-  content: &quot;
-  \f09a&quot;
-  ;
+  content: "
+\f09a"
+;
   font-family: fontawesome;
   margin-right: 15px;
 }
@@ -2105,7 +2088,7 @@ div#top-comment {
 h1,
 h2,
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .headtitle h1 {
@@ -2166,7 +2149,7 @@ h3.white {
 }
 
 h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   font-weight: 600;
   color: #fff;
@@ -2174,7 +2157,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
@@ -2182,7 +2165,7 @@ h5 {
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23px;
@@ -2226,7 +2209,7 @@ ul.slimmenu li a {
   display: block;
   color: #646464;
   padding: 12px 30px 12px 30px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -2256,7 +2239,7 @@ ul.slimmenu li .sub-collapser {
 }
 
 ul.slimmenu li .sub-collapser:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -2450,9 +2433,9 @@ ul.slimmenu.collapsed li>ul {
 }
 
 .toggle-item .panel-title a:after {
-  content: &quot;
-  &quot;
-  ;
+  content: "
+"
+;
   position: absolute;
   left: 0;
   top: 0;
