@@ -1,0 +1,14 @@
+h2.post-title a,
+h1.post-title a,
+h2.post-title,
+h1.post-title {
+  color: #383838;
+  font-size: 29px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.post-info {
+  padding-left: 20px;
+  margin: 0 0 20px;
+}
