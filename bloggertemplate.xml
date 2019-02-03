@@ -147,7 +147,7 @@
 		</b:if>
 		<b:if cond='data:blog.url == data:blog.homepageUrl'>
 			<!-- Homepage CSS -->
-			<link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/home.min.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet' type='text/css' charset='utf-8'/><noscript><link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/home.min.css rel='stylesheet' type='text/css' charset='utf-8'/></noscript>
+			<link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/home.min.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet' type='text/css' charset='utf-8'/><noscript><link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/home.min.css' rel='stylesheet' type='text/css' charset='utf-8'/></noscript>
 		</b:if>
 		<b:if cond='data:blog.searchLabel'>
 			<!-- Search Label CSS -->
@@ -155,7 +155,7 @@
 		</b:if>
 		<b:if cond='data:blog.pageType != &quot;item&quot;'>
 			<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-				<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1E0r0mPO3rs95v0QMH192gRajUY2ic0wJ'/>	<!-- Bold Parallax Theme Static Page -->
+				<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-static_page.min.js'/>	<!-- Bold Parallax Theme Static Page -->
 			</b:if>
 		</b:if>
     <!-- author image in post-->
@@ -917,7 +917,7 @@
 															</div>
 														</div>
 													</div>
-													<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1XFolhWXz6JEnYuVfCaM9kYTorJNC9f_3'/>	<!-- Comment Tab Slidedown -->
+													<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-comment_tab_slide.min.js'/>	<!-- Comment Tab Slidedown -->
 												</div>
 											</b:if>
 										</b:includable>
@@ -1579,7 +1579,7 @@
 																		</b:if>
 																	</li>
 																</ul>
-																<script defer='true' src='//drive.google.com/uc?export=download&amp;id=16wlJpZc5ZXZ7B6zi0RnJFT1IJEckBgJA'/>	<!-- Bold Parallax - older newer posts -->
+																<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-newer_older_posts.min.js'/>	<!-- Bold Parallax - older newer posts -->
 															</b:if>
 														</b:if>
 														<div style='clear: both;'/>
@@ -1940,7 +1940,7 @@
 														</div>
 													</div>
 												</div>
-												<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1XFolhWXz6JEnYuVfCaM9kYTorJNC9f_3'/>	<!-- Comment Tab Slidedown -->
+												<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-comment_tab_slide.min.js'/>	<!-- Comment Tab Slidedown -->
 											</div>
 											<div style='clear: both;'/>
 										</b:includable>
@@ -2024,20 +2024,20 @@
 		}
 	</style>
 
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=15BuPB_LyF5EZlbJA3zGc1QFuNGMR6NuG'/>	<!-- Bold Parallax Resize Menu & Scroll to Top -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1Xk8OTvCL4sQ18WspXySK_9uwEhpS62iD'/>	<!-- Bold Parallax Resize Tabs Menu -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1EDCNNb0US_VM_IepwPV0Dvj9_b-ePyN6'/>	<!-- Bold Parallax Custom Easing -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1ulXJLbdtcMoGQOqqxz3NDO6xCClNeJEf'/>	<!-- Bold Parallax Scrolltop -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1gW0hHSw1xbdOQhmXU0DHmPs0KKFONnFs'/>	<!-- Bold Parallax Scrolltop Position -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1UHX_mxq8aMYGAMYBUEc19uKUQ38sqg2W'/>	<!-- Bold Parallax Popular Post Image -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1EbvmgsWSi40wwoJIMHdFjqTSbrpC0RZF'/>	<!-- Bold Parallax Sticky Menu -->
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=1VcAeo931lr9Rvfws7MmCWl78pQ2DAZ_G'/>	<!-- Attribution -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-resize_menu_scrolltop.min.js'/>	<!-- Bold Parallax Resize Menu & Scroll to Top -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-tabs_menu.min.js'/>							<!-- Bold Parallax Resize Tabs Menu -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-custom_easing.min.js'/>					<!-- Bold Parallax Custom Easing -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-scrolltop.min.js'/>							<!-- Bold Parallax Scrolltop -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-scrolltop_pos.min.js'/>					<!-- Bold Parallax Scrolltop Position -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-pop_post_img.min.js'/>					<!-- Bold Parallax Popular Post Image -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-sticky_menu.min.js'/>						<!-- Bold Parallax Sticky Menu -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/bold_parallax-attribution.min.js'/>	<!-- Attribution -->
 
 	<!-- Calendly badge widget begin -->
 	<!-- Calendly CSS - async -->
 	<link href='//assets.calendly.com/assets/external/widget.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet'/><noscript><link href='//assets.calendly.com/assets/external/widget.css' rel='stylesheet'/></noscript>
 	<script defer='true' src='//assets.calendly.com/assets/external/widget.js' type='text/javascript'/>
-	<script defer='true' src='//drive.google.com/uc?export=download&amp;id=11CR-EwAKL3_bs6JQmLpPclLdLRyBM0xK'/>	<!-- tekNorah Calendly -->
+	<script defer='true' src='//cdn.jsdelivr.net/gh/tekNorah/tekAura/js/tekNorah_Calendly.min.js'/>	<!-- tekNorah Calendly -->
 	<style>
 		.calendly-badge-widget {
 			left: 20px;

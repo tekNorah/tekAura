@@ -854,7 +854,6 @@ h1.post-title {
   -webkit-transition: .5s;
   -moz-transition: .5s;
   font-family: "Roboto Slab", serif;
-  font-display: swap;
   font-size: 25px;
   line-height: 1.52em;
   color: #000;
@@ -1487,7 +1486,7 @@ body#layout #footer .column .widget {
 
 .profile-img {
   display: inline;
-  opaciry: 10;
+  opacity: 10;
   margin: 0 6px 3px 0;
 }
 
@@ -2070,17 +2069,13 @@ div#top-comment {
 }
 
 .top-comment.blogico:before {
-  content: "
-\f0d5"
-;
+  content: "\f0d5";
   font-family: fontawesome;
   margin-right: 15px;
 }
 
 .top-comment.faceico:before {
-  content: "
-\f09a"
-;
+  content: "\f09a";
   font-family: fontawesome;
   margin-right: 15px;
 }
@@ -2433,9 +2428,7 @@ ul.slimmenu.collapsed li>ul {
 }
 
 .toggle-item .panel-title a:after {
-  content: "
-"
-;
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -2753,16 +2746,16 @@ input[type="checkbox"]:focus {
 .mbt-pager li.previous i,
 .mbt-pager li.next,
 .mbt-pager li.previous {
-  -webkit-transition-property: background color;
+  -webkit-transition-property: background-color;
   -webkit-transition-duration: 0.4s;
   -webkit-transition-timing-function: ease-out;
-  -moz-transition-property: background color;
+  -moz-transition-property: background-color;
   -moz-transition-duration: 0.4s;
   -moz-transition-timing-function: ease-out;
-  -o-transition-property: background color;
+  -o-transition-property: background-color;
   -o-transition-duration: 0.4s;
   -o-transition-timing-function: ease-out;
-  transition-property: background color;
+  transition-property: background-color;
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
