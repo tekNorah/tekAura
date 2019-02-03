@@ -125,7 +125,7 @@
 		<!-- [END] Async Fonts (CSS) -->
 
 		<!-- MAIN CSS -->
-		<link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura@latest/css/main.min.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet' type='text/css' charset='utf-8'/><noscript><link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura@latest/css/main.min.css' rel='stylesheet' type='text/css' charset='utf-8'/></noscript>
+		<link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/main.min.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet' type='text/css' charset='utf-8'/><noscript><link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/main.min.css' rel='stylesheet' type='text/css' charset='utf-8'/></noscript>
 
 		<!-- MAIN CSS -->
 		<link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/more.min.css' media='none' onload='if(media!=&quot;all&quot;)media=&quot;all&quot;' rel='stylesheet' type='text/css' charset='utf-8'/><noscript><link href='//cdn.jsdelivr.net/gh/tekNorah/tekAura/css/more.min.css' rel='stylesheet' type='text/css' charset='utf-8'/></noscript>
