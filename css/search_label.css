@@ -1,18 +1,18 @@
 .headtitle {
-  display: none;
+    display: none;
 }
 
 .header {
-  float: none;
-  margin: 0 auto;
+    float: none;
+    margin: 0 auto;
 }
 
 .top-menu {
-  position: relative;
-  top: 60px;
+    position: relative;
+    top: 60px;
 }
 
 #intro .bg1,
 #intro {
-  height: 200px;
+    height: 200px;
 }
