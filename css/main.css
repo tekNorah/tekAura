@@ -297,7 +297,7 @@ body {
   position: relative;
   font: normal normal 12px Arial, sans-serif;
   margin: 0 auto;
-  height: 65px;
+  height: 85px;
   overflow: hidden;
   padding: 0 28px
 }
@@ -1888,7 +1888,7 @@ code {
   }
 
   #intro {
-    height: 45px
+    height: 85px
   }
 
   .headtitle {
@@ -2165,10 +2165,6 @@ nav {
   #post-wrapper {
     margin-top: 44px
   }
-
-  nav {
-    top: 45px
-  }
 }
 
 @media only screen and (max-width:767px) and (min-width:480px) {
@@ -2227,10 +2223,6 @@ nav {
 
   #mywrapper {
     margin-top: 22px
-  }
-
-  nav {
-    top: 30px
   }
 
   .menubar {
