@@ -33,7 +33,8 @@
   background: #fff;
   border: 1px solid #ddd;
   overflow: hidden;
-  padding: 6px
+  padding: 6px;
+  float: left
 }
 
 .comments .comment-block {
