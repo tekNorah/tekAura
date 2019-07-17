@@ -36,6 +36,10 @@
   float: left
 }
 
+.comments .avatar-image-container img {
+  border-radius: 50%;
+}
+
 .comments .comment-block {
   position: relative;
   background: #fff;
