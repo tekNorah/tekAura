@@ -143,14 +143,16 @@
 }
 
 .comments .comments-content .icon.blog-author {
-  display: inline
+  display: inline;
+  margin-left: 5px
 }
 
 .comments .comments-content .icon.blog-author:after {
   content: "Admin";
-  background: #0088c2;
-  color: #fff;
+  background: #3c0;
+  color: black;
   font-size: 11px;
+  font-weight: 700;
   padding: 2px 5px
 }
 
